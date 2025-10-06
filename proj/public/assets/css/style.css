@@ -1,0 +1,1090 @@
+body {
+	font-family: "Montserrat", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 150% !important;
+    color: #0f2568 !important;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 19px;
+  }  
+.h1, .h2, .h3, h1, h2, h3, p {
+    line-height: normal;
+}
+
+nav.navbar.navbardefault {
+    margin: 0;
+    padding: 15px 0;
+    border-bottom: 1px solid #efefef;
+    border-radius: 0;
+}
+
+nav.navbar.navbardefault ul.navbar {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav.navbar.navbardefault ul.navbar li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav.navbar.navbardefault ul.navbar li a {
+    padding: 0;
+    font-weight: 600;
+    color: #002751;
+    font-family: "Montserrat", sans-serif;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+nav.navbar.navbardefault .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.navbar.navbardefault .container:before, 
+nav.navbar.navbardefault .container:after {
+    display: none;
+}
+
+/*====== new head =======*/
+
+body section.section-space.f-section-space {
+    padding-top: 120px;
+}
+nav.navbar.header-navbar {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 15px 0 10px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+nav.navbar.header-navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.navbar.header-navbar .container::before,nav.navbar.header-navbar .container::after {
+    display: none;
+}
+
+nav.navbar.header-navbar .container button.navbar-toggle {
+    display: block;
+    background: #ffffffbd;
+    backdrop-filter: blur(10px);
+    border-radius: 40px;
+    margin: 0;
+}
+
+nav.navbar.header-navbar .navbar-right {
+    display: flex;
+    width: 95%;
+    background: #ffffffbd;
+    backdrop-filter: blur(10px);
+    border-radius: 40px;
+    align-items: center;
+    padding: 11px 10px 11px 30px;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.h-button {
+    display: flex;
+    gap: 4px;
+}
+
+.navbar-right .h-button a {
+    background: #fff;
+    border-radius: 40px;
+    padding: 13px 20px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar-right .h-button a.orange {
+    background: #f59a14;
+    /*box-shadow: inset 0 0 13px #ffffff94;*/
+}
+
+.navbar-right .h-button a.blue {
+    background: #001273;
+    /*box-shadow: inset 0 0 13px #4562fd;*/
+}
+
+
+
+  .container-fluid {
+    padding: 60px 50px;
+  }
+
+  .logo-small {
+    color: #f4511e;
+    font-size: 50px;
+  }
+  .logo {
+    color: #f4511e;
+    font-size: 200px;
+  }
+
+.section-space {
+    padding: 80px 0;
+}
+.hm.info {
+    color: #fff;
+}
+
+.info h1,.info h2 {
+    font-size: 48px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+section.hm-section1.section1 {}
+
+section.hm-section1.section1 .left {
+    position: relative;
+}
+
+section.hm-section1.section1 .containers > .row {
+    justify-content: start;
+}
+
+section.section1 .info {
+    text-align: right;
+    padding: 0 0 0 150px;
+	font-weight: 200;
+}
+
+.info p {
+    font-size: 22px;
+    line-height: 150%;
+    font-weight: 300;
+}
+
+.info .anc button {
+    background: #104888;
+    border: 0;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+section.section1 {
+    background: #e63a2e;
+    position: relative;
+    overflow: hidden;
+}
+section.section2 {
+    background: #f39231;
+}
+section.section3 {
+    background: #fcec03;
+}
+section.section4 {
+    background: #54ae39;
+}
+section.section5 {
+    background: #06a2b0;
+}
+section.section6 {
+    background: #114889;
+}
+section.section7 {
+    background: #ffffff;
+}
+
+section.section1 .row {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+section.section1 .left {
+    position: absolute;
+    left: 0;
+    padding-left: 0;
+    width: 50%;
+}
+section.section2 .bx a{
+    border: 1px solid #cf7c2a;
+    border-radius: 12px;
+    overflow: hidden;
+	text-align: center;
+	display: block;
+	
+}
+section.section2 .bx a {
+    text-decoration: none;
+    transition: top .3s ease;
+	position: relative;
+	top: 0;
+}
+section.section2 .bx:hover a{
+    transition: top .3s ease;
+	position: relative;
+	top: -5px;
+}
+section.section2 .top {
+    padding-bottom: 25px;
+}
+section.section2 .bx p {
+    margin: 0;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+}
+section.section2 .bx .title {
+    padding: 15px 10px;
+}      
+section.section2 .bx .image img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+section.section3 .info h2 {
+	color: #104888;
+}
+section.section3 .bx {
+    border: 0;
+    border-radius: 0;
+    overflow: hidden;
+    text-align: center;
+}
+section.section3 .bx a {
+    text-decoration: none;
+    text-decoration: none;
+    transition: top .3s ease;
+	position: relative;
+	top: 0;
+}
+section.section3 .bx:hover a{
+    transition: top .3s ease;
+	position: relative;
+	top: -5px;
+}
+section.section3 .top {
+    padding-bottom: 25px;
+}
+section.section3 .bx p {
+    margin: 0;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+}
+section.section3 .bx .title {
+    padding: 10px;
+}
+
+section.section3 .bx .image img {
+    max-width: 200px;
+	margin: auto;
+}
+
+section.section3 .bx .title p {
+    color: #104888;
+}
+
+section.section4 .row {
+    align-items: center;
+    display: flex;
+}
+section.section4 .info {
+    text-align: right;
+    padding: 0 0 0 150px;
+	font-weight: 200;
+}
+
+section.section4 .caption-title {
+    font-weight: 300;
+    color: #fff;
+    padding-top: 50px;
+}
+
+section.section4 .caption-title h3 {
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 0;
+}
+section.section4 .caption-title p {
+    margin: 0;
+	color: #fff;	
+}
+section.section4 .info p {
+    color: #fff;
+}
+
+section.section4 .slick-prev:before, section.section4 .slick-next:before {
+    color: #fff;
+    opacity: 1;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+section.section4 .slick-list {
+    padding: 0 50px;
+}
+
+section.section4 button.slick-prev {
+    left: 35%;
+    bottom: 20px;
+    top: auto;
+}
+section.section4 button.slick-next {
+    right: 35%;
+    bottom: 20px;
+    top: auto;
+} 
+
+section.section5 .top {
+    padding-bottom: 25px;
+}
+section.section5 .bx p {
+    margin: 0;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+}
+section.section5 .bx .title {
+    padding: 20px 10px;
+}
+
+section.section5 .bx .image img {
+
+}
+
+section.section5 .bx a{
+    border: 1px solid #74cbd3;
+    border-radius: 12px;
+    overflow: hidden;
+	text-align: center;
+	display: block;
+	
+}
+section.section5 .bx a {
+    text-decoration: none;
+    transition: top .3s ease;
+	position: relative;
+	top: 0;
+}
+section.section5 .bx:hover a{
+    transition: top .3s ease;
+	position: relative;
+	top: -5px;
+}
+
+section.section6 .bx {
+    border: 1px solid #74cbd3;
+    border-radius: 12px;
+    overflow: hidden;
+	text-align: center;
+}
+section.section6 .bx {
+    border: 0;
+    border-radius: 0;
+    overflow: hidden;
+    text-align: center;
+}
+section.section6 .top {
+    padding-bottom: 50px;
+}
+section.section6 .bx p {
+    margin: 0;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+}
+section.section6 .bx .title {
+    padding: 10px;
+}
+
+section.section6 .bx .image img {
+    max-width: 200px;
+	margin: auto;
+}
+
+section.section6 .bx .title p {
+    color: #ffffff;
+}
+
+.eachFaq.close h4:before {
+    content: '+';
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    background: url(../images/arw.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    font-size: 0;
+    bottom: 0;
+}
+.eachFaq.open h4:before{ 
+  content: '-'; 
+  width: 20px; height: 20px;
+  position: absolute;
+  top: 0; left: 0;
+
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    background: url(../images/arw.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    font-size: 0;
+    bottom: 0;
+}
+.accordion-content{
+  padding: 0 0 0 2em;
+  margin: 0 0 2em 0;
+  font-size: 1.25em;
+}
+.accordion-content p{ margin: 0; }
+.eachFaq .title{ cursor: pointer; }
+.eachFaq .title:hover{ color: red; }
+
+.faq {}
+
+section.section7 .row {
+	align-items: start;
+}
+
+section.section7 .info h2 {
+	color: #585858;
+}
+
+section.section7 .faq {display: flex;flex-direction: column;}
+
+section.section7 .faq .eachFaq h4.title {
+    position: relative;
+    color: #585858;
+    opacity: 1;
+    font-weight: 300;
+    font-size: 24px;
+    padding-left: 45px;
+    margin: 0;
+	line-height: 150%
+}
+
+section.section7 .faq .accordion-content {
+    padding: 17px 0 0 45px;
+}
+
+h4.title {}
+
+section.section7 .faq .eachFaq {
+    opacity: 1;
+    margin: 15px 0;
+} 
+
+section.section7 .faq .accordion-content p {
+    color: #5c5c5c;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+
+section.contact-section1 {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    background: #002375;
+}
+
+section.contact-section1 .contact-l {
+    display: flex;
+    align-items: start;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dfdfdf42;
+    margin-bottom: 20px;
+}
+
+section.contact-section1 .contact-l h2.section_title {
+    margin-top: 2px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #fff;
+}
+
+section.contact-section1 .contact-l .ri {
+    padding-left: 20px;
+}
+
+section.contact-section1 .contact-l .ad-info {
+    font-weight: 500;
+    line-height: 160%;
+    color: #fff;
+}
+
+section.contact-section1 .top {
+    padding-bottom: 50px;
+}
+
+section.contact-section1 h3.sec2frmtitle {
+    margin-top: 2px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 23px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+section.contact-section1 .f-rw label {
+    display: block;
+    font-weight: 500;
+    color: #fff;
+}
+
+section.contact-section1 .f-rw {
+    padding-bottom: 20px;
+}
+
+section.contact-section1 .f-rw .col2 {
+    border: 0;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    border-radius: 0;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    padding: 10px 0;
+}
+
+section.contact-section1 .top-sec {
+    padding-bottom: 50px;
+}
+
+section.career.contact-section1 .sec2contactform form input[type="file"] {
+    font-size: 14px;
+}
+
+section.contact-section1 input[type="submit"] {
+    background: #fff;
+    border: 0;
+    text-transform: none;
+    padding: 12px 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: #104888;
+    min-width: 160px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section.career.contact-section1 .sec2contactform form .upl {}
+
+section.career.contact-section1 .sec2contactform form .upl input.col2.sec {
+    margin-bottom: 10px;
+}
+
+section.career.contact-section1 .sec2contactform form .upl  p {
+    color: #fff;
+    font-size: 12px;
+    margin: 0;
+}
+
+section.contact-section1 .contact-l .icon img {
+    /* border-radius: 27px; */
+    position: relative;
+    top: -4px;
+}
+
+section.contact-section1 .contact-l .icon {border-radius: 60px;overflow: hidden;width: 41px;height: 40px;}
+
+section.career.section1 .left {
+    overflow: hidden;
+}
+
+section.career.section1 {
+    height: auto;
+    padding: 100px 0;
+    background: #c32015;
+}
+
+section.career.section1 .left .image img {
+    width: 100%;
+    max-width: 100%;
+}
+
+section.career.section1 .hm.info {
+    text-align: left;
+    padding-left: 70px;
+}
+
+section.career.contact-section1 {
+    padding-top: 100px;
+}
+
+section.career.contact-section1 .top-sec {
+    justify-content: center;
+    display: flex;
+}
+
+section.career.contact-section1 .top-sec h3.sec2frmtitle {
+    text-align: center;
+    font-size: 40px;
+}
+
+section.career.contact-section1 .top-sec h3.sec2frmtitle span{
+    font-size: 26px;
+}
+
+section.career.contact-section1 .top-sec .f-rw.sbtn {
+    text-align: center;
+}
+
+section.career.contact-section1 .sec2contactform {}
+
+section.career.contact-section1 .sec2contactform form {
+    background: #ffffff26;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+section.career.contact-section1 .sec2contactform form input.col2 {
+    margin-bottom: 30px;
+}
+
+footer.footer {
+    background: #0e2569;
+    color: #fff;
+	padding: 15px 0;
+}
+
+footer.footer .container > .rows {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer.footer .container > .rows:before,footer.footer .container > .rows:after {
+    display: none;
+}
+
+footer.footer .container > .rows .right ul {
+    display: flex;
+	margin: 0;
+}
+footer.footer .rows p {
+	margin: 0;
+	color: #fff;
+}
+footer.footer .right ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+footer.footer .right ul li a {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+	text-decoration: none
+}
+
+footer.footer a.topup {
+    position: fixed;
+    bottom: 70px;
+    right: 15px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 0 6px 2px #00000026;
+    padding: 31px 25px;
+    border-radius: 210px;
+    font-weight: 600;
+    color: #002751;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+footer.footer a.topup p.logo img {
+    max-width: 80px;
+}
+
+footer.footer a.topup p {
+    line-height: normal;
+    margin: 0;
+}
+
+footer.footer a.topup p.logo {
+    line-height: 0;
+    margin: 0 0 5px 0;
+}
+
+
+
+
+
+/* About Us */ 
+
+section.aboutus01 {
+    background: #06a2b0;
+    position: relative;
+    overflow: hidden;
+}
+
+
+section.aboutus01 .info {
+    text-align: left;
+    padding: 0px;
+	font-weight: 200;
+}
+
+section.aboutus01 .info p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+section.aboutus02 {
+    background: #54ae39;
+    position: relative;
+    overflow: hidden;
+}
+
+section.aboutus02 .btm{margin-top:30px; }
+
+section.aboutus02 p {
+    font-size: 18px;
+    font-weight: 300;
+	color:#fff;
+}
+
+section.aboutus02 .secbor{border:1px solid #fff; border-radius:10px; margin:10px; padding:10px 20px; min-height:300px;}
+section.aboutus02 h3{padding:10px 0; color:#fff; margin:0; font-size: 28px;font-weight: 300; text-transform: uppercase;}
+section.aboutus02 ul{margin:0; padding:0;}
+section.aboutus02 ul li{margin-left:20px; padding:0px; color:#fff; font-size:16px;}
+
+
+section.aboutus03 {background: #114889; position: relative; overflow: hidden;}
+section.aboutus03 .top { padding-bottom: 25px;}
+section.aboutus03 p { font-size: 18px;font-weight: 300;color:#fff;}
+section.aboutus03 .bx .image img { max-width: 200px; margin: auto;}
+section.aboutus03 .bx .title {padding:10px; text-align:center;}
+section.aboutus03 .bx .title p { color: #fff;}
+
+section.aboutus04 {background: #f39231; position: relative; overflow: hidden;}
+section.aboutus04 img{margin-top:20px;}
+
+
+section.aboutus05 {background: #e53a2e;position: relative;overflow: hidden;}
+section.aboutus05 .info {text-align: left;padding: 0px;font-weight: 200;}
+section.aboutus05 .info p {font-size: 18px;font-weight: 300;}
+section.aboutus05 .image img {width: 100%; margin: auto;}
+
+
+/* End About Us */ 
+
+@media (min-width: 1650px){	
+    section.hm-section1.section1 .hm.info {
+        padding-left: 300px;
+    }
+}
+
+@media (min-width: 1500px){	
+    
+	body .container {
+		max-width: 1320px;
+		width: 100%;
+	}
+	section.section1 {
+        height: 100vh;
+    }
+	section.section1 .container, section.section1 .container .row {
+        height: 100%;
+    }
+    section.section1 .left {
+        padding: 0px 0;
+    }
+    section.career.section1 {
+        height: 80vh;
+    }
+    
+}
+@media (max-width: 1450px){	
+    
+    .info h1, .info h2 {
+        font-size: 38px;
+    }
+	section.section1 .info,
+	section.section4 .info {
+		padding: 0 0 0 100px;
+	}
+	body .container {
+		width: 100%;
+		max-width: 1200px;
+	}
+	footer.footer .right ul li {
+		list-style: none;
+		margin: 0 7px;
+	}
+	footer.footer .right ul li a {
+		font-size: 15px;
+	}
+	section.career.section1 {
+        height: auto;
+        padding: 50px 0;
+    }
+}
+
+
+@media (max-width: 650px){	
+    nav.navbar.navbardefault ul.navbar {
+    flex-direction: column;
+    align-items: start;
+    padding-top: 30px;
+}
+
+nav.navbar.navbardefault ul.navbar li {
+    margin: 0 0 12px 0;
+}
+    nav.navbar.navbardefault .container {
+    display: block;
+}
+
+nav.navbar.navbardefault .container button.navbar-toggle {
+    background: #c22610;
+    color: #fff;
+    border: 0;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+nav.navbar.navbardefault .container button.navbar-toggle span.icon-bar {
+    background: #fff;
+}
+
+nav.navbar.navbardefault a.navbar-logo {
+    margin-left: 15px;
+}
+    section.section4 .row {
+    flex-direction: column-reverse;
+}
+
+section.section1 .info, section.section4 .info {
+    text-align: center;
+    padding: 0;
+}
+section.section2 .bx {
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+section.section3 .info h2 {
+    text-align: center;
+}
+
+.info h1, .info h2 {
+    text-align: center;
+}
+
+.info p {
+    text-align: center;
+}
+
+section.section4 .info {
+    padding-bottom: 30px;
+}
+
+section.section4 button.slick-next {
+    top: 50%;
+    bottom: auto;
+    right: 10px;
+}
+
+section.section4 button.slick-prev {
+    left: 0px;
+    right: auto;
+    top: 50%;
+}
+
+
+section.section4 .caption-title {
+    padding-top: 10px;
+}
+
+section.section5 .bx {
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+section.section6 .bx .image img {
+    max-width: 100px;
+}
+
+section.section7 .info {
+    padding-bottom: 0;
+}
+
+section.contact-section1 .top {
+    padding-bottom: 20px;
+}
+
+section.contact-section1 {
+    padding-top: 0;
+}
+
+section.contact-section1 .top .info h2 {
+    font-size: 30px;
+}
+
+section.contact-section1 .contact-l h2.section_title {
+    font-size: 16px;
+}
+
+section.contact-section1 .contact-l .ad-info {
+    font-size: 15px;
+    margin: 0;
+}
+
+section.contact-section1 .contact-l .ri {
+    padding-left: 10px;
+}
+
+section.contact-section1 h3.sec2frmtitle {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+section.contact-section1 .f-rw .col2 {
+    margin-bottom: 15px;
+}
+
+section.contact-section1 input[type="submit"] {
+    margin: 0;
+}
+
+section.contact-section1 .f-rw {
+    padding-bottom: 10px;
+}
+
+section.contact-section1 input[type="submit"] {
+    padding: 8px 10px;
+    min-width: 120px;
+    font-size: 17px;
+}
+
+section.contact-section1 .top-sec {
+    padding-bottom: 20px;
+}
+
+footer.footer .container > .rows {
+    flex-direction: column;
+}
+
+footer.footer .container > .rows .right ul {
+    padding: 10px 0 0 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer.footer .container > .rows .right ul a {
+    display: inline-block;
+    white-space: normal;
+}
+
+footer.footer .container > .rows .right ul a {
+    font-size: 13px;
+}
+
+footer.footer .container > .rows .left {
+    text-align: center;
+}
+
+div#cirId {}
+
+footer.footer a.topup {
+    display: none;
+}
+
+.section-space {
+    padding: 20px 0;
+}
+
+.info h1, .info h2 {
+    font-size: 26px;
+}
+
+section.section4 .row .col-sm-5 {
+    width: 100%;
+}
+
+section.section7 .faq .eachFaq h4.title {
+    font-size: 19px;
+    line-height: normal;
+}
+
+.eachFaq.close h4:before {
+    background-size: 16px;
+    top: 5px;
+}
+
+section.section1 .left {
+    position: relative;
+    width: 100%;
+    padding: 0;
+}
+
+section.section1 .row {
+    flex-direction: column;
+}
+
+section.section1 {
+    padding: 0 0 20px 0;
+}
+
+.info p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.info h1 br, .info h2 br {
+    display: none;
+}
+
+section.career.section1 {
+    padding: 0;
+}
+
+section.career.section1 .hm.info {
+    padding: 20px 20px 30px;
+}
+
+section.career.contact-section1 {
+    padding: 20px 10px;
+}
+
+section.career.section1 .hm.info h1 {
+    font-size: 40px;
+}
+
+section.career.contact-section1 .top-sec h3.sec2frmtitle {
+    font-size: 34px;
+}
+
+section.career.contact-section1 .sec2contactform form {
+    margin-bottom: 0;
+    padding: 20px 20px;
+}
+}
